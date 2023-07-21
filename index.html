@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koeingsegg</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Noto+Serif+JP:wght@200&family=Roboto:wght@100&family=Ysabeau+SC:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo">KOEINGSEGG</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Megacars</li>
+            <li><a href="#"></a>Services</li>
+            <li><a href="#"></a>About Us</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img class="menu-btn" src="./images/menu.jpg" alt="">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Fastest Car Ever Made</h2>
+            <div class="line"></div>
+            <h1>KOEINGSEGG</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- cars  -->
+    <section>
+    </section>
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
